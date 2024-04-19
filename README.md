@@ -1,4 +1,4 @@
-## Hi, I'm José Renato <a><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="7%"></a>
+## Hi, I'm José Renato <a><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="5%"></a>
 
 I am a technology and innovation enthusiast. I am a B.Pharm graduate. I am currently pursuing a Master's degree in **Computational Modeling**.
 
