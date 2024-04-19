@@ -1,8 +1,8 @@
 ## Hi, I'm José Renato <a><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="7%"></a>
-I am a technology and innovation enthusiast. I am a B.Pharm graduate. I am currently pursuing a Master's degree in Computational Modeling.
+I am a technology and innovation enthusiast. I am a B.Pharm graduate. I am currently pursuing a Master's degree in *Computational Modeling*.
 --- 
 - 🎓 Pursuing a M.Sc. at [LNCC/MCTI](http://gmmsb.lncc.br/) 🇧🇷
-- 🔎 Research interests: AI/ML, Molecular Modeling, Drug Discovery
+- 🔎 Research interests: *AI/ML*, *Molecular Modeling*, *Drug Discovery*...
 - 📰 Check out my [publications](https://scholar.google.com.br/citations?user=W2eqbxQAAAAJ&hl&sortby=pubdate)
 ---
 #### 📫 How to reach me:
