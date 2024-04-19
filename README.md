@@ -1,5 +1,5 @@
 ### Hi there <a><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="5%"></a>
-I'm José Renato
+#### I'm José Renato
 
 <!--- 🔎 Research interests: -->
 - 🎓 Pursuing a M.Sc. at [LNCC/MCTI](http://gmmsb.lncc.br/) 🇧🇷
