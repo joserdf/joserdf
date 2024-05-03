@@ -1,6 +1,6 @@
 ## Hi, I'm José Renato <a><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="5%"></a>
 
-Hey there! I'm a tech enthusiast with a background in Pharmacy, now diving into **Computational Modeling** for my Master's. With 4 years of research experience, I've honed skills in data analysis, molecular modeling, and simulation techniques. Eager to collaborate with fellow science buffs to make a difference!
+I'm a tech enthusiast with a background in Pharmacy, now diving into **Computational Modeling** for my Master's. With 4 years of research experience, I've honed skills in data analysis, molecular modeling, and simulation techniques. Eager to collaborate with fellow science buffs to make a difference!
 
 - 🔎 Research interests: ***AI/ML***, ***Molecular Modeling***, ***Drug Discovery***...
 - 🎓 Pursuing a ***M.Sc.*** at [*LNCC/MCTI*](http://gmmsb.lncc.br/) 🇧🇷
