@@ -5,7 +5,7 @@ I'm a tech enthusiast with a background in Pharmacy, now diving into **Computati
 - 🔎 Research interests: ***AI/ML***, ***Molecular Modeling***, ***Drug Discovery***...
 - 🎓 Pursuing a ***M.Sc.*** at [*LNCC/MCTI*](http://gmmsb.lncc.br/) 🇧🇷
   - 🎓 ***B.Pharm*** graduate at [*UFF*](https://www.uff.br/)
-- 📰 Check out my [**publications**](https://scholar.google.com.br/citations?user=W2eqbxQAAAAJ&hl&sortby=pubdate)
+- 📰 Check out my [**publications**](https://scholar.google.com.br/citations?user=OzpMO68AAAAJ&hl&sortby=pubdate)
 ---
 #### 📫 How to reach me:
 
