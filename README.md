@@ -1,16 +1,12 @@
 ## Hi, I'm José Renato <a><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="5%"></a>
-
-I'm a tech enthusiast with a background in Pharmacy, now diving into **Computational Modeling** for my Master's. With 4 years of research experience, I've honed skills in data analysis, molecular modeling, and simulation techniques. Eager to collaborate with fellow science buffs to make a difference!
-
-- 🔎 Research interests: ***AI/ML***, ***Molecular Modeling***, ***Drug Discovery***...
-- 🎓 Pursuing a ***M.Sc.*** at [*LNCC/MCTI*](http://gmmsb.lncc.br/) 🇧🇷
-  - 🎓 ***B.Pharm*** graduate at [*UFF*](https://www.uff.br/)
-- 📰 Check out my [**publications**](https://scholar.google.com.br/citations?user=OzpMO68AAAAJ&hl&sortby=pubdate)
----
-#### 📫 How to reach me:
-
 [![orcid](https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-0303-4033) [![researchgate](https://custom-icon-badges.demolab.com/badge/Research_Gate-40BA9B.svg?&style=flat&logo=researchgate-square&logoColor=white)](https://www.researchgate.net/profile/Jose_Renato_Fajardo) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0e76a8?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fajardo-jrd) [![lattes](https://custom-icon-badges.demolab.com/badge/Lattes-005195?style=flat&logo=lattes&logoColor=white)](http://lattes.cnpq.br/9633738434379496)
 
+I am a Master's Student in Computational Modeling. I am deeply passionate about the intersection of technology and science, firmly believing that the future lies in their integration.
+
+- 🔎 Research interests: ***AI/ML***, ***Molecular Modeling***, ***Drug Discovery/Development***...
+- 🎓 Pursuing a ***M.Sc.*** at [*LNCC/MCTI*](http://gmmsb.lncc.br/) 🇧🇷
+- 🎓 ***B.Pharm*** graduate at [*UFF*](https://www.uff.br/) 🇧🇷
+- 📰 Check out my [**publications**](https://scholar.google.com.br/citations?user=OzpMO68AAAAJ&hl&sortby=pubdate)
 <!--
 Here are some ideas to get you started:
 
