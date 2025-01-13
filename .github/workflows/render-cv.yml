@@ -1,0 +1,44 @@
+name: Generate and Release CVs
+
+on:
+  push:
+    paths:
+      - 'cv/cv-config-pt.yml'  # Caminho para o arquivo em português
+      - 'cv/cv-config-en.yml'  # Caminho para o arquivo em inglês
+  workflow_dispatch:  # Permite execução manual do workflow
+
+jobs:
+  generate-cv:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install rendercv
+      run: |
+        python -m pip install --upgrade pip
+        pip install rendercv
+
+    - name: Generate CV in Portuguese (Full)
+      run: |
+        rendercv generate --input cv/cv-config-pt.yml --output joserdf-full-pt.pdf
+
+    - name: Generate CV in English (Full)
+      run: |
+        rendercv generate --input cv/cv-config-en.yml --output joserdf-full-en.pdf
+
+    - name: Create GitHub Release
+      id: create_release
+      run: |
+        tag=$(date +'%Y-%m-%d-%H-%M-%S')
+
+        gh release create "$tag" joserdf-full-pt.pdf joserdf-full-en.pdf --title "Curriculum - $tag" --notes "Automatically generated releases of the curriculum in Portuguese and English."
+        gh release create "latest" joserdf-full-pt.pdf joserdf-full-en.pdf --title "Curriculum - Latest" --notes "Latest version of the automatically generated curriculum."
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
