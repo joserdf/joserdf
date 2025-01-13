@@ -1,11 +1,11 @@
 ## Hi, I'm José Renato <a><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="5%"></a>
-[![orcid](https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-0303-4033) [![researchgate](https://custom-icon-badges.demolab.com/badge/Research_Gate-40BA9B.svg?&style=flat&logo=researchgate-square&logoColor=white)](https://www.researchgate.net/profile/Jose_Renato_Fajardo) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0e76a8?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fajardo-jrd) [![lattes](https://custom-icon-badges.demolab.com/badge/Lattes-005195?style=flat&logo=lattes&logoColor=white)](http://lattes.cnpq.br/9633738434379496)
+[![orcid](https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-0303-4033) [![researchgate](https://custom-icon-badges.demolab.com/badge/Research_Gate-40BA9B.svg?&style=flat&logo=researchgate-square&logoColor=white)](https://www.researchgate.net/profile/Jose_Renato_Fajardo) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0e76a8?style=flat&logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+PHN2ZyBmaWxsPSIjRkZGRkZGIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNTAgNTAiIHdpZHRoPSI1MHB4IiBoZWlnaHQ9IjUwcHgiPiAgICA8cGF0aCBkPSJNNDEsNEg5QzYuMjQsNCw0LDYuMjQsNCw5djMyYzAsMi43NiwyLjI0LDUsNSw1aDMyYzIuNzYsMCw1LTIuMjQsNS01VjlDNDYsNi4yNCw0My43Niw0LDQxLDR6IE0xNywyMHYxOWgtNlYyMEgxN3ogTTExLDE0LjQ3YzAtMS40LDEuMi0yLjQ3LDMtMi40N3MyLjkzLDEuMDcsMywyLjQ3YzAsMS40LTEuMTIsMi41My0zLDIuNTNDMTIuMiwxNywxMSwxNS44NywxMSwxNC40N3ogTTM5LDM5aC02YzAsMCwwLTkuMjYsMC0xMCBjMC0yLTEtNC0zLjUtNC4wNGgtMC4wOEMyNywyNC45NiwyNiwyNy4wMiwyNiwyOWMwLDAuOTEsMCwxMCwwLDEwaC02VjIwaDZ2Mi41NmMwLDAsMS45My0yLjU2LDUuODEtMi41NiBjMy45NywwLDcuMTksMi43Myw3LjE5LDguMjZWMzl6Ii8+PC9zdmc+)](https://www.linkedin.com/in/fajardo-jrd) [![lattes](https://custom-icon-badges.demolab.com/badge/Lattes-005195?style=flat&logo=lattes&logoColor=white)](http://lattes.cnpq.br/9633738434379496)
 
-I am a Master's Student in Computational Modeling. I am deeply passionate about the intersection of technology and science, firmly believing that the future lies in their integration.
+I am a Master's Student in Computational Modeling. I am deeply passionate about the intersection of *technology & science*, firmly believing that the future lies in their integration.
 
-- 🔎 Research interests: ***AI/ML***, ***Molecular Modeling***, ***Drug Discovery/Development***...
-- 🎓 Pursuing a ***M.Sc.*** at [*LNCC/MCTI*](http://gmmsb.lncc.br/) 🇧🇷
-- 🎓 ***B.Pharm*** graduate at [*UFF*](https://www.uff.br/) 🇧🇷
+- 🔎 Research interests: **AI/ML**, **Molecular Modeling**, **Drug Discovery/Development**...
+- 🎓 Pursuing a **M.Sc.** at [LNCC/MCTI](http://gmmsb.lncc.br/) 🇧🇷
+- 🎓 **B.Pharm** graduate at [UFF](https://www.uff.br/) 🇧🇷
 - 📰 Check out my [**publications**](https://scholar.google.com.br/citations?user=OzpMO68AAAAJ&hl&sortby=pubdate)
 <!--
 Here are some ideas to get you started:
