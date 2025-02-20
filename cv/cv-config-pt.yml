@@ -1,0 +1,188 @@
+cv:
+  name: José Renato Duarte Fajardo
+  location: Rio de Janeiro, Brasil
+  email: joserenatodf@outlook.com
+  social_networks:
+    - network: LinkedIn
+      username: fajardo-jrd
+    - network: ORCID
+      username: 0000-0002-0303-4033
+  sections:
+    educação:
+      - institution: Laboratório Nacional de Computação Científica
+        area: Modelagem Computacional
+        degree: MSc
+        start_date: 2024
+        end_date: 2026
+        highlights:
+          - 'Grupo: Grupo de Modelagem Molecular de Sistemas Biológicos (GMMSB)'
+          - 'Projeto: Construção de um banco de dados de afinidade de ligação ligante-receptor como base para modelos preditivos'
+          - 'Bolsa: PROEX/CAPES'
+
+      - institution: Universidade Federal Fluminense
+        area: Farmácia
+        degree: Bacharel
+        start_date: 2018
+        end_date: 2023
+        highlights:
+            - 'CR: 8,3'
+            - 'TCC: "Preparando As Fundações Para Descoberta De Fármacos Via Machine-Learning: Construindo Um Conjunto De Dados Enriquecido Com GFN2-xTB E Descritores Moleculares"'
+            - Membro da Sociedade Brasileira de Química
+
+    experiências:
+      - company: Laboratório Nacional de Computação Científica
+        position: Estudante de Mestrado
+        start_date: 2024-03
+        end_date: present
+        highlights:
+          - Sólida fundação em princípios gerais de modelagem, com experiência em estruturas de dados e algoritmos usando C e Python
+          - Aplicação de algoritmos genéticos em estudos de biologia evolutiva
+          - Desenvolvimento de algoritmos de otimização multiobjetivo para otimização de propriedades moleculares usando PyTorch
+          - Expertise em manipulação e curadoria de grandes conjuntos de dados/bancos de dados, como RCSB PDB, ZINC, ChEMBL e BindingDB
+          - Integração de técnicas computacionais com modelagem molecular
+
+      - company: Instituto Vital Brazil
+        position: Estagiário do Departamento de Antígenos
+        start_date: 2023-04
+        end_date: 2023-12
+        highlights:
+          - Manipulou e liofilizou venenos de cobras e artrópodes para produção de soro hiperimune
+          - Preparou soluções para hiperimunização e análises in vivo
+          - Redigiu e revisou POPs e documentos técnicos
+
+      - company: Universidade Federal Fluminense
+        position: Iniciação Científica
+        start_date: 2019-09
+        end_date: 2023-08
+        highlights:
+          - 'Grupo: Laboratório Multiusuário de Química Computacional'
+          - Conduziu projetos sobre detecção de novas substâncias psicoativas e mecanismos de polimerização
+          - Gestão de dados de química computacional e análise usando métodos estatísticos, como PCA e Regressão
+          - Desenvolvimento de aplicações para otimização de processos, automação de análises e gerenciamento de clusters, com Python e Shell Script
+          - Publicou 2 artigos em revistas científicas, incluindo um na Molecular Catalysis e um artigo de capa no JBCS
+          - Participação em conferências nacionais e internacionais, com 3 apresentações de pôster e 3 apresentações orais
+          - Manteve uma bolsa de pesquisa nacional por 3 anos
+          - 'Bolsa: PIBIC/CNPq (2020-2021), PIBIC/CNPq (2021-2022), PIBIC/CNPq (2022-2023)'
+
+      - company: Instituto Nacional de Controle de Qualidade em Saúde (FIOCRUZ)
+        position: Estagiário de Controle de Qualidade
+        date: 2022-10
+        highlights:
+          - Participou de análises físico-químicas de cosméticos e sanitizantes
+          - Revisou POPs e documentos técnicos
+
+    organizações:
+      - name: Liga Interdisciplinar de Saúde Digital Alan Turing
+        start_date: 2021-09
+        end_date: 2022-02
+        summary: Co-Fundador e Colaborador de Pesquisa
+
+    publicações:
+      - title: "Computation-Guided Support to Experiments by the Exploration of Reaction Mechanisms: Organic Synthesis, Natural Products and Environmental Issues"
+        authors:
+          - Karine N. de Andrade
+          - '***José Renato D. Fajardo***'
+          - Caio A. Leal
+          - José Walkimar M. Carneiro
+          - Rodolfo G. Fiorot
+        journal: Journal of the Brazilian Chemical Society
+        date: 2023-03-27
+        doi: 10.21577/0103-5053.20230043
+
+      - title: A DFT study on the mechanism for polymerization of δ-valerolactone initiated by N-heterocyclic carbene (NHC) catalysts
+        authors:
+          - Milena D. Lessa
+          - '***José Renato D. Fajardo***'
+          - Maicon Delarmelina
+          - José Walkimar M. Carneiro
+        journal: Molecular Catalysis
+        date: 2021-09-25
+        doi: 10.1016/j.mcat.2021.111896
+
+    prêmios_e_honrarias:
+      - name: Mensão Honrosa | Top10 Melhores Resumos
+        date: 2023
+        summary: XXII Pharmaceutical Congress of São Paulo & XIV International Seminar on Pharmaceutical Sciences
+
+      - name: Artigo Capa da Edição
+        date: 2023
+        summary: Journal of the Brazilian Chemical Society
+
+    certificados:
+      - name: Revisor
+        date: 2023
+        summary: Elsevier | Journal of CO#sub[2] Utilization
+
+      - name: General English 30 - B2
+        summary: BSC Education, Londres - UK
+        date: 2019
+
+    idiomas:
+      - label: Inglês
+        details: B2
+
+    habilidades:
+      - label: Hard Skills
+        details: Python, Modelagem Computacional, Simulações Moleculares, Análise de Dados, Escrita Científica
+
+      - label: Soft Skills
+        details: Trabalho em Equipe, Resolução de Problemas, Adaptabilidade, Pensamento Crítico, Gerenciamento de Projetos
+
+design:
+  theme: classic 
+  page:
+    size: a4
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  links:
+    underline: false
+    use_external_link_icon: false
+  entries:
+    date_and_location_width: 3cm
+  entry_types:
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE em AREA'
+      degree_column_template:
+
+locale:
+  language: pt
+  phone_number_format: E164
+  page_numbering_template: NAME - PAGE_NUMBER/TOTAL_PAGES 
+  last_updated_date_template: Atualizado em TODAY 
+  date_template: MONTH_ABBREVIATION YEAR 
+  month: mês
+  months: meses
+  year: ano
+  years: anos
+  present: presente
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Fev
+    - Mar
+    - Abr
+    - Maio
+    - Jun
+    - Jul
+    - Ago
+    - Set
+    - Out
+    - Nov
+    - Dez
+  full_names_of_months:
+    - Janeiro
+    - Fevereiro
+    - Março
+    - Abril
+    - Maio
+    - Junho
+    - Julho
+    - Agosto
+    - Setembro
+    - Outubro
+    - Novembro
+    - Dezembro
