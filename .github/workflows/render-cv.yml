@@ -27,11 +27,11 @@ jobs:
 
     - name: Generate CV in Portuguese (Full)
       run: |
-        rendercv generate --input cv/cv-config-pt.yml --output joserdf-full-pt.pdf
+        rendercv render cv/cv-config-pt.yml --pdf-path joserdf-full-pt.pdf
 
     - name: Generate CV in English (Full)
       run: |
-        rendercv generate --input cv/cv-config-en.yml --output joserdf-full-en.pdf
+        rendercv render cv/cv-config-en.yml --pdf-path joserdf-full-en.pdf
 
     - name: Create GitHub Release
       id: create_release
