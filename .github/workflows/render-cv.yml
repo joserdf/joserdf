@@ -27,18 +27,18 @@ jobs:
 
     - name: Generate CV in Portuguese (Full)
       run: |
-        rendercv render cv/cv-config-pt.yml --pdf-path joserdf-full-pt.pdf
+        rendercv render cv/cv-config-pt.yml --pdf-path joserdf-cv-pt.pdf
 
     - name: Generate CV in English (Full)
       run: |
-        rendercv render cv/cv-config-en.yml --pdf-path joserdf-full-en.pdf
+        rendercv render cv/cv-config-en.yml --pdf-path joserdf-cv-en.pdf
 
     - name: Create GitHub Release
       id: create_release
       run: |
         tag=$(date +'%Y-%m-%d-%H-%M-%S')
 
-        gh release create "$tag" joserdf-cv-pt.pdf joserdf-cv-en.pdf --title "Curriculum - $tag" --notes "Automatically generated releases of the curriculum in Portuguese and English."
-        gh release create "latest" joserdf-cv-pt.pdf joserdf-cv-en.pdf --title "Curriculum - Latest" --notes "Latest version of the automatically generated curriculum."
+        gh release create "$tag" joserdf-full-pt.pdf joserdf-cv-en.pdf --title "Curriculum - $tag" --notes "Automatically generated releases of the curriculum in Portuguese and English."
+        gh release create "latest" joserdf-full-pt.pdf joserdf-cv-en.pdf --title "Curriculum - Latest" --notes "Latest version of the automatically generated curriculum."
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
