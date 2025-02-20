@@ -3,9 +3,12 @@ name: Generate and Release CVs
 on:
   push:
     paths:
-      - 'cv/cv-config-pt.yml'  # Caminho para o arquivo em português
-      - 'cv/cv-config-en.yml'  # Caminho para o arquivo em inglês
-  workflow_dispatch:  # Permite execução manual do workflow
+      - 'cv/cv-config-pt.yml'
+      - 'cv/cv-config-en.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write  # Necessário para criar releases
 
 jobs:
   generate-cv:
@@ -33,12 +36,29 @@ jobs:
       run: |
         rendercv render cv/cv-config-en.yml --pdf-path joserdf-cv-en.pdf
 
+    - name: Authenticate GitHub CLI
+      run: |
+        gh auth setup-git
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Create GitHub Release
       id: create_release
       run: |
         tag=$(date +'%Y-%m-%d-%H-%M-%S')
 
-        gh release create "$tag" joserdf-cv-pt.pdf joserdf-cv-en.pdf --title "Curriculum - $tag" --notes "Automatically generated releases of the curriculum in Portuguese and English."
-        gh release create "latest" joserdf-cv-pt.pdf joserdf-cv-en.pdf --title "Curriculum - Latest" --notes "Latest version of the automatically generated curriculum."
+        # Criar release com a data
+        gh release create "$tag" joserdf-cv-pt.pdf joserdf-cv-en.pdf \
+          --title "Curriculum - $tag" \
+          --notes "Automatically generated releases of the curriculum in Portuguese and English."
+
+        # Deletar release e tag "latest" (se existir)
+        gh release delete latest --yes || true
+        gh tag delete latest || true
+
+        # Criar nova release "latest"
+        gh release create "latest" joserdf-cv-pt.pdf joserdf-cv-en.pdf \
+          --title "Curriculum - Latest" \
+          --notes "Latest version of the automatically generated curriculum."
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
