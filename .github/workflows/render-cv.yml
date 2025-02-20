@@ -38,7 +38,7 @@ jobs:
       run: |
         tag=$(date +'%Y-%m-%d-%H-%M-%S')
 
-        gh release create "$tag" joserdf-full-pt.pdf joserdf-cv-en.pdf --title "Curriculum - $tag" --notes "Automatically generated releases of the curriculum in Portuguese and English."
-        gh release create "latest" joserdf-full-pt.pdf joserdf-cv-en.pdf --title "Curriculum - Latest" --notes "Latest version of the automatically generated curriculum."
+        gh release create "$tag" joserdf-cv-pt.pdf joserdf-cv-en.pdf --title "Curriculum - $tag" --notes "Automatically generated releases of the curriculum in Portuguese and English."
+        gh release create "latest" joserdf-cv-pt.pdf joserdf-cv-en.pdf --title "Curriculum - Latest" --notes "Latest version of the automatically generated curriculum."
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
