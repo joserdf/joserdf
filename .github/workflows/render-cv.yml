@@ -5,7 +5,10 @@ on:
     paths:
       - 'cv/cv-config-pt.yml'
       - 'cv/cv-config-en.yml'
+  schedule:
+    - cron: '0 0 1 * *'
   workflow_dispatch:
+  
 
 permissions:
   contents: write  # Necessário para criar releases
