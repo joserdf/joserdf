@@ -10,7 +10,7 @@ cv:
       username: 0000-0002-0303-4033
   sections:
     educação:
-      - institution: Laboratório Nacional de Computação Científica (LNCC)
+      - institution: Laboratório Nacional de Computação Científica
         area: Modelagem Computacional
         degree: MSc
         start_date: 2024
@@ -18,7 +18,7 @@ cv:
         highlights:
           - 'Projeto: Construção de um Banco de Dados de Afinidade de Complexos Receptor-Ligante como base para modelos preditivos'
 
-      - institution: Universidade Federal Fluminense (UFF)
+      - institution: Universidade Federal Fluminense
         area: Farmácia
         degree: Bacharel
         start_date: 2018

@@ -10,7 +10,7 @@ cv:
       username: 0000-0002-0303-4033
   sections:
     experiências:
-      - company: Laboratório Nacional de Computação Científica (LNCC)
+      - company: Laboratório Nacional de Computação Científica
         position: Estudante de Mestrado
         start_date: 2024-03
         end_date: present
@@ -25,7 +25,7 @@ cv:
           - Implementou um algoritmo genético multiobjetivo com PyTorch, aplicados à otimização de propriedades moleculares
           - Orientou um estudante de iniciação científica em projetos de docking molecular e predição de afinidade, desenvolvendo habilidades de mentoria
 
-      - company: Universidade Federal Fluminense (UFF)
+      - company: Universidade Federal Fluminense
         position: Iniciação Científica
         start_date: 2019-09
         end_date: 2023-08
