@@ -1,0 +1,190 @@
+cv:
+  name: José Renato Duarte Fajardo
+  location: Rio de Janeiro, Brasil
+  email: fajardo_jrd@outlook.com
+  phone: +55 21 98557-0478
+  social_networks:
+    - network: LinkedIn
+      username: fajardo-jrd
+    - network: ORCID
+      username: 0000-0002-0303-4033
+  sections:
+    experiências:
+      - company: Laboratório Nacional de Computação Científica (LNCC)
+        position: Estudante de Mestrado
+        start_date: 2024-03
+        end_date: present
+        highlights:
+          - 'Grupo: Grupo de Modelagem Molecular de Sistemas Biológicos (GMMSB)'
+          - Constrói um banco de dados de afinidade de complexos receptor-ligante, derivado de grandes fontes de dados públicos (RCSB PDB, ChEMBL, BindingDB)
+          - Desenvolve pipelines de integração de dados aplicando arquitetura ETL, utilizando Python e SQL
+          - Testa e implementa modelos de aprendizado de maquina supervisionados (MLP, LLM, RNN, CNN) para prever a afinidade de complexos receptor-ligante, utilizando bibliotecas como scikit-learn e PyTorch
+          - Desenvolve pipelines de simulação de Docking molecular com DockThor, integrando dados experimentais e computacionais
+          - Automatiza relatórios de análise estatística e visualização de dados para interpretar resultados de simulação, utilizando Matplotlib e Seaborn
+          - Colabora com equipes multidisciplinares para integrar dados experimentais e computacionais, exercitando comunicação clara, colaboração interinstitucional e resolução de problemas
+          - Implementou um algoritmo genético multiobjetivo com PyTorch, aplicados à otimização de propriedades moleculares
+          - Orientou um estudante de iniciação científica em projetos de docking molecular e predição de afinidade, desenvolvendo habilidades de mentoria
+
+      - company: Universidade Federal Fluminense (UFF)
+        position: Iniciação Científica
+        start_date: 2019-09
+        end_date: 2023-08
+        highlights:
+          - 'Grupo: Laboratório Multiusuário de Química Computacional'
+          - Desenvolveu um conjunto de dados de descritores moleculares para cerca de 2.200 moléculas com propriedades farmacológicas
+          - Conduziu estudos em química computacional voltados à detecção de novas substâncias psicoativas e elucidação de mecanismos de polimerização
+          - Aplicou análise estatística com scikit-learn (PCA, regressão) para interpretação de dados de simulação
+          - Automatizou pipelines de análise de dados estruturados e não estruturados com Python, Pandas e NumPy
+          - Desenvolveu ferramentas para gerenciamento de clusters, utilizando Python e Bash
+          - Publicou 2 artigos em periódicos internacionais (Molecular Catalysis, JBCS) e apresentou 6 trabalhos em conferências, desenvolvendo habilidades de comunicação científica oral e escrita
+
+    educação:
+      - institution: Laboratório Nacional de Computação Científica (LNCC)
+        area: Modelagem Computacional
+        degree: MSc
+        start_date: 2024
+        end_date: 2026
+        highlights:
+          - 'Projeto: Construção de um Banco de Dados de Afinidade de Complexos Receptor-Ligante como base para modelos preditivos'
+
+      - institution: Universidade Federal Fluminense (UFF)
+        area: Farmácia
+        degree: Bacharel
+        start_date: 2018
+        end_date: 2023
+        highlights:
+            - 'TCC: "Preparando As Fundações Para Descoberta De Fármacos Via Machine-Learning: Construindo Um Conjunto De Dados Enriquecido Com GFN2-xTB E Descritores Moleculares"'
+
+    organizações:
+      - name: Liga Interdisciplinar de Saúde Digital Alan Turing
+        start_date: 2021-09
+        end_date: 2022-02
+        summary: Co-Fundador e Colaborador de Pesquisa
+
+    publicações:
+      - title: Efficient Deployment of a 685B-Parameter Open-Source LLM on the Brazilian Santos Dumont Supercomputer
+        authors:
+          - Leon S. C. Costa
+          - Matheus M. P. da Silva
+          - Fábio L. Custódio
+          - '***José Renato D. Fajardo***'
+          - Bruno A. Fagundes
+          - Marcelo M. Galheigo
+          - Vívian Medeiros
+          - André R. Carneiro
+          - Wagner V. Léo
+          - Fábio André M. Porto
+          - Fábio B. De Oliveira
+          - Antônio Tadeu A. Gomes
+          - Laurent E. Dardenne
+        journal: Research Square
+        date: 2025-05-14
+        doi: 10.21203/rs.3.rs-6655308
+
+      - title: "Computation-Guided Support to Experiments by the Exploration of Reaction Mechanisms: Organic Synthesis, Natural Products and Environmental Issues"
+        authors:
+          - Karine N. de Andrade
+          - '***José Renato D. Fajardo***'
+          - Caio A. Leal
+          - José Walkimar M. Carneiro
+          - Rodolfo G. Fiorot
+        journal: Journal of the Brazilian Chemical Society
+        date: 2023-03-27
+        doi: 10.21577/0103-5053.20230043
+
+      - title: A DFT study on the mechanism for polymerization of δ-valerolactone initiated by N-heterocyclic carbene (NHC) catalysts
+        authors:
+          - Milena D. Lessa
+          - '***José Renato D. Fajardo***'
+          - Maicon Delarmelina
+          - José Walkimar M. Carneiro
+        journal: Molecular Catalysis
+        date: 2021-09-25
+        doi: 10.1016/j.mcat.2021.111896
+
+    prêmios_e_honrarias:
+      - name: Mensão Honrosa | Top10 Melhores Resumos
+        date: 2023
+        summary: XXII Pharmaceutical Congress of São Paulo & XIV International Seminar on Pharmaceutical Sciences
+
+      - name: Artigo Capa da Edição
+        date: 2023
+        summary: Journal of the Brazilian Chemical Society
+
+    certificados:
+      - name: Revisor
+        date: 2023
+        summary: Elsevier | Journal of CO#sub[2] Utilization
+
+      - name: General English 30 - B2
+        summary: BSC Education, Londres - UK
+        date: 2019
+
+    idiomas:
+      - label: Inglês
+        details: B2
+
+design:
+  theme: classic
+  colors:
+    text: black
+    name: black
+    connections: black
+    section_titles: black
+    links: black
+  page:
+    size: a4
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: true
+    show_last_updated_date: false
+  links:
+    underline: false
+    use_external_link_icon: false
+  entries:
+    date_and_location_width: 3cm
+  entry_types:
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE em AREA'
+      degree_column_template:
+
+locale:
+  language: pt
+  phone_number_format: E164
+  page_numbering_template: NAME - PAGE_NUMBER/TOTAL_PAGES 
+  last_updated_date_template: Atualizado em TODAY 
+  date_template: MONTH_ABBREVIATION YEAR 
+  month: mês
+  months: meses
+  year: ano
+  years: anos
+  present: presente
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Fev
+    - Mar
+    - Abr
+    - Maio
+    - Jun
+    - Jul
+    - Ago
+    - Set
+    - Out
+    - Nov
+    - Dez
+  full_names_of_months:
+    - Janeiro
+    - Fevereiro
+    - Março
+    - Abril
+    - Maio
+    - Junho
+    - Julho
+    - Agosto
+    - Setembro
+    - Outubro
+    - Novembro
+    - Dezembro
