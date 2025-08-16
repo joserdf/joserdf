@@ -3,10 +3,7 @@ name: Generate and Release CVs
 on:
   push:
     paths:
-      - 'cv/cv-config-pt.yml'
-      - 'cv/cv-config-en.yml'
-  schedule:
-    - cron: '0 0 1 * *'
+      - 'cv/**'
   workflow_dispatch:
   
 
@@ -31,13 +28,21 @@ jobs:
         python -m pip install --upgrade pip
         pip install rendercv[full]
 
+    - name: Generate CV in Portuguese (Data Science)
+      run: |
+        rendercv render cv/cv-config-data-pt.yml --pdf-path fajardo-jrd-cv-pt.pdf
+
+    - name: Generate CV in English (Data Science)
+      run: |
+        rendercv render cv/cv-config-data-en.yml --pdf-path fajardo-jrd-cv-en.pdf
+
     - name: Generate CV in Portuguese (Full)
       run: |
-        rendercv render cv/cv-config-pt.yml --pdf-path joserdf-cv-pt.pdf
+        rendercv render cv/cv-config-full-pt.yml --pdf-path joserdf-cv-pt.pdf
 
     - name: Generate CV in English (Full)
       run: |
-        rendercv render cv/cv-config-en.yml --pdf-path joserdf-cv-en.pdf
+        rendercv render cv/cv-config-full-en.yml --pdf-path joserdf-cv-en.pdf
 
     - name: Authenticate GitHub CLI
       run: |
@@ -50,17 +55,17 @@ jobs:
       run: |
         tag=$(date +'%Y-%m-%d-%H-%M-%S')
 
-        # Criar release com a data
-        gh release create "$tag" joserdf-cv-pt.pdf joserdf-cv-en.pdf \
+        # Create release with the date
+        gh release create "$tag" fajardo-jrd-cv-pt.pdf fajardo-jrd-cv-en.pdf joserdf-cv-pt.pdf joserdf-cv-en.pdf \
           --title "Curriculum - $tag" \
           --notes "Automatically generated releases of the curriculum in Portuguese and English."
 
-        # Deletar release e tag "latest" (se existir)
+        # Delete release and tag "latest" (if exists)
         gh release delete latest --yes || true
         gh tag delete latest || true
 
-        # Criar nova release "latest"
-        gh release create "latest" joserdf-cv-pt.pdf joserdf-cv-en.pdf \
+        # Create new release "latest"
+        gh release create "latest" fajardo-jrd-cv-pt.pdf fajardo-jrd-cv-en.pdf joserdf-cv-pt.pdf joserdf-cv-en.pdf \
           --title "Curriculum - Latest" \
           --notes "Latest version of the automatically generated curriculum."
       env:
